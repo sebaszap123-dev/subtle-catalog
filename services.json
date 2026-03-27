@@ -432,8 +432,8 @@
       "defaultFrequency":"monthly"
    },
    {
-      "slug":"disney",
-      "name":"Disney",
+      "slug":"disneyplus",
+      "name":"Disney+",
       "category":"Entertainment",
       "brandColor":"113CCF",
       "defaultPrice":13.99,
