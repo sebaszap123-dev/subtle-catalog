@@ -414,5 +414,21 @@
         "brandColor": "13B5EA",
         "defaultPrice": 25.0,
         "defaultFrequency": "monthly"
+    },
+    {
+        "slug": "chatgpt",
+        "name": "ChatGPT",
+        "category": "Developer Tools",
+        "brandColor": "00A67E",
+        "defaultPrice": 25.0,
+        "defaultFrequency": "monthly"
+    },
+    {
+        "slug": "claude",
+        "name": "Claude",
+        "category": "Developer Tools",
+        "brandColor": "DA7756",
+        "defaultPrice": 25.0,
+        "defaultFrequency": "monthly"
     }
 ]
