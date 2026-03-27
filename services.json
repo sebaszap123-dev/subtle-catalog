@@ -68,7 +68,7 @@
   {"slug":"quickbooks","name":"QuickBooks Online Simple Start","category":"Finance","brandColor":"2CA01C","defaultPrice":30.0,"defaultFrequency":"monthly"},
   {"slug":"xero","name":"Xero Starter","category":"Finance","brandColor":"13B5EA","defaultPrice":25.0,"defaultFrequency":"monthly"},
 
-  {"slug":"chatgpt","name":"ChatGPT","category":"Developer Tools","brandColor":"00A67E","defaultPrice":25.0,"defaultFrequency":"monthly"},
+  {"slug":"openai-chatgpt","name":"ChatGPT","category":"Developer Tools","brandColor":"00A67E","defaultPrice":25.0,"defaultFrequency":"monthly"},
   {"slug":"claude","name":"Claude","category":"Developer Tools","brandColor":"DA7756","defaultPrice":25.0,"defaultFrequency":"monthly"},
   {"slug":"openai","name":"OpenAI","category":"Developer Tools","brandColor":"10A37F","defaultPrice":20.0,"defaultFrequency":"monthly"},
   {"slug":"gemini","name":"Gemini","category":"Developer Tools","brandColor":"4285F4","defaultPrice":20.0,"defaultFrequency":"monthly"},
