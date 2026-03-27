@@ -1,434 +1,570 @@
 [
-    {
-        "slug": "netflix",
-        "name": "Netflix",
-        "category": "Entertainment",
-        "brandColor": "E50914",
-        "defaultPrice": 15.49,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "max",
-        "name": "Max",
-        "category": "Entertainment",
-        "brandColor": "525252",
-        "defaultPrice": 15.99,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "paramount",
-        "name": "Paramount+",
-        "category": "Entertainment",
-        "brandColor": "0064FF",
-        "defaultPrice": 5.99,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "crunchyroll",
-        "name": "Crunchyroll",
-        "category": "Entertainment",
-        "brandColor": "FF5E00",
-        "defaultPrice": 7.99,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "youtube",
-        "name": "YouTube Premium",
-        "category": "Entertainment",
-        "brandColor": "FF0000",
-        "defaultPrice": 13.99,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "googletv",
-        "name": "Google TV",
-        "category": "Entertainment",
-        "brandColor": "4285F4",
-        "defaultPrice": 0.0,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "now",
-        "name": "NOW",
-        "category": "Entertainment",
-        "brandColor": "001211",
-        "defaultPrice": 9.99,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "googleplay",
-        "name": "Google Play Pass",
-        "category": "Entertainment",
-        "brandColor": "414141",
-        "defaultPrice": 4.99,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "spotify",
-        "name": "Spotify",
-        "category": "Music",
-        "brandColor": "1ED760",
-        "defaultPrice": 9.99,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "applemusic",
-        "name": "Apple Music",
-        "category": "Music",
-        "brandColor": "FA243C",
-        "defaultPrice": 10.99,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "tidal",
-        "name": "TIDAL",
-        "category": "Music",
-        "brandColor": "000000",
-        "defaultPrice": 10.99,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "deezer",
-        "name": "Deezer",
-        "category": "Music",
-        "brandColor": "A238FF",
-        "defaultPrice": 10.99,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "youtubemusic",
-        "name": "YouTube Music",
-        "category": "Music",
-        "brandColor": "FF0000",
-        "defaultPrice": 9.99,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "mixcloud",
-        "name": "Mixcloud Pro",
-        "category": "Music",
-        "brandColor": "5000FF",
-        "defaultPrice": 15.0,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "neteasecloudmusic",
-        "name": "NetEase Cloud Music",
-        "category": "Music",
-        "brandColor": "D43C33",
-        "defaultPrice": 8.99,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "discord",
-        "name": "Discord Nitro",
-        "category": "Communication",
-        "brandColor": "5865F2",
-        "defaultPrice": 9.99,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "telegram",
-        "name": "Telegram Premium",
-        "category": "Communication",
-        "brandColor": "26A5E4",
-        "defaultPrice": 4.99,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "zoom",
-        "name": "Zoom Pro",
-        "category": "Communication",
-        "brandColor": "0B5CFF",
-        "defaultPrice": 14.99,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "notion",
-        "name": "Notion Plus",
-        "category": "Productivity",
-        "brandColor": "000000",
-        "defaultPrice": 10.0,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "evernote",
-        "name": "Evernote Personal",
-        "category": "Productivity",
-        "brandColor": "00A82D",
-        "defaultPrice": 7.99,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "todoist",
-        "name": "Todoist Pro",
-        "category": "Productivity",
-        "brandColor": "E44332",
-        "defaultPrice": 4.0,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "dropbox",
-        "name": "Dropbox Plus",
-        "category": "Productivity",
-        "brandColor": "0061FF",
-        "defaultPrice": 11.99,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "googledrive",
-        "name": "Google One",
-        "category": "Cloud",
-        "brandColor": "4285F4",
-        "defaultPrice": 1.99,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "box",
-        "name": "Box Business Starter",
-        "category": "Cloud",
-        "brandColor": "0061D5",
-        "defaultPrice": 7.0,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "nextcloud",
-        "name": "Nextcloud Enterprise",
-        "category": "Cloud",
-        "brandColor": "0082C9",
-        "defaultPrice": 8.0,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "onlyoffice",
-        "name": "ONLYOFFICE Workspace",
-        "category": "Productivity",
-        "brandColor": "444444",
-        "defaultPrice": 8.0,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "github",
-        "name": "GitHub Pro",
-        "category": "Developer Tools",
-        "brandColor": "181717",
-        "defaultPrice": 4.0,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "githubcopilot",
-        "name": "GitHub Copilot",
-        "category": "Developer Tools",
-        "brandColor": "000000",
-        "defaultPrice": 10.0,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "jetbrains",
-        "name": "JetBrains All Products",
-        "category": "Developer Tools",
-        "brandColor": "000000",
-        "defaultPrice": 16.9,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "figma",
-        "name": "Figma Professional",
-        "category": "Design",
-        "brandColor": "F24E1E",
-        "defaultPrice": 12.0,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "atlassian",
-        "name": "Atlassian Cloud",
-        "category": "Developer Tools",
-        "brandColor": "0052CC",
-        "defaultPrice": 7.5,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "jira",
-        "name": "Jira Software Standard",
-        "category": "Developer Tools",
-        "brandColor": "0052CC",
-        "defaultPrice": 8.0,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "linear",
-        "name": "Linear",
-        "category": "Developer Tools",
-        "brandColor": "5E6AD2",
-        "defaultPrice": 8.0,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "cloudflare",
-        "name": "Cloudflare Pro",
-        "category": "Cloud",
-        "brandColor": "F38020",
-        "defaultPrice": 20.0,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "cloudinary",
-        "name": "Cloudinary Plus",
-        "category": "Cloud",
-        "brandColor": "3448C5",
-        "defaultPrice": 23.0,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "googlecloud",
-        "name": "Google Cloud",
-        "category": "Cloud",
-        "brandColor": "4285F4",
-        "defaultPrice": 20.0,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "1password",
-        "name": "1Password",
-        "category": "Security",
-        "brandColor": "3B66BC",
-        "defaultPrice": 2.99,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "bitwarden",
-        "name": "Bitwarden Premium",
-        "category": "Security",
-        "brandColor": "175DDC",
-        "defaultPrice": 1.0,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "lastpass",
-        "name": "LastPass Premium",
-        "category": "Security",
-        "brandColor": "D32D27",
-        "defaultPrice": 3.0,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "nordvpn",
-        "name": "NordVPN",
-        "category": "Security",
-        "brandColor": "4687FF",
-        "defaultPrice": 12.99,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "expressvpn",
-        "name": "ExpressVPN",
-        "category": "Security",
-        "brandColor": "DA3940",
-        "defaultPrice": 12.95,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "openvpn",
-        "name": "OpenVPN Access Server",
-        "category": "Security",
-        "brandColor": "EA7E20",
-        "defaultPrice": 15.0,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "duolingo",
-        "name": "Duolingo Super",
-        "category": "Education",
-        "brandColor": "58CC02",
-        "defaultPrice": 12.99,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "coursera",
-        "name": "Coursera Plus",
-        "category": "Education",
-        "brandColor": "0056D2",
-        "defaultPrice": 59.0,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "skillshare",
-        "name": "Skillshare",
-        "category": "Education",
-        "brandColor": "00FF84",
-        "defaultPrice": 19.0,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "codecademy",
-        "name": "Codecademy Pro",
-        "category": "Education",
-        "brandColor": "1F4056",
-        "defaultPrice": 19.99,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "hackthebox",
-        "name": "Hack The Box",
-        "category": "Education",
-        "brandColor": "9FEF00",
-        "defaultPrice": 29.0,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "playstation",
-        "name": "PlayStation Plus",
-        "category": "Gaming",
-        "brandColor": "0070D1",
-        "defaultPrice": 9.99,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "ea",
-        "name": "EA Play",
-        "category": "Gaming",
-        "brandColor": "000000",
-        "defaultPrice": 4.99,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "ubisoft",
-        "name": "Ubisoft+",
-        "category": "Gaming",
-        "brandColor": "000000",
-        "defaultPrice": 14.99,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "quickbooks",
-        "name": "QuickBooks Online Simple Start",
-        "category": "Finance",
-        "brandColor": "2CA01C",
-        "defaultPrice": 30.0,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "xero",
-        "name": "Xero Starter",
-        "category": "Finance",
-        "brandColor": "13B5EA",
-        "defaultPrice": 25.0,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "chatgpt",
-        "name": "ChatGPT",
-        "category": "Developer Tools",
-        "brandColor": "00A67E",
-        "defaultPrice": 25.0,
-        "defaultFrequency": "monthly"
-    },
-    {
-        "slug": "claude",
-        "name": "Claude",
-        "category": "Developer Tools",
-        "brandColor": "DA7756",
-        "defaultPrice": 25.0,
-        "defaultFrequency": "monthly"
-    }
+   {
+      "slug":"netflix",
+      "name":"Netflix",
+      "category":"Entertainment",
+      "brandColor":"E50914",
+      "defaultPrice":15.49,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"max",
+      "name":"Max",
+      "category":"Entertainment",
+      "brandColor":"525252",
+      "defaultPrice":15.99,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"paramount",
+      "name":"Paramount+",
+      "category":"Entertainment",
+      "brandColor":"0064FF",
+      "defaultPrice":5.99,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"crunchyroll",
+      "name":"Crunchyroll",
+      "category":"Entertainment",
+      "brandColor":"FF5E00",
+      "defaultPrice":7.99,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"youtube",
+      "name":"YouTube",
+      "category":"Entertainment",
+      "brandColor":"FF0000",
+      "defaultPrice":13.99,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"googletv",
+      "name":"Google TV",
+      "category":"Entertainment",
+      "brandColor":"4285F4",
+      "defaultPrice":0.0,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"now",
+      "name":"NOW",
+      "category":"Entertainment",
+      "brandColor":"001211",
+      "defaultPrice":9.99,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"googleplay",
+      "name":"Google Play Pass",
+      "category":"Entertainment",
+      "brandColor":"414141",
+      "defaultPrice":4.99,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"spotify",
+      "name":"Spotify",
+      "category":"Music",
+      "brandColor":"1ED760",
+      "defaultPrice":9.99,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"applemusic",
+      "name":"Apple Music",
+      "category":"Music",
+      "brandColor":"FA243C",
+      "defaultPrice":10.99,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"tidal",
+      "name":"TIDAL",
+      "category":"Music",
+      "brandColor":"000000",
+      "defaultPrice":10.99,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"deezer",
+      "name":"Deezer",
+      "category":"Music",
+      "brandColor":"A238FF",
+      "defaultPrice":10.99,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"youtubemusic",
+      "name":"YouTube Music",
+      "category":"Music",
+      "brandColor":"FF0000",
+      "defaultPrice":9.99,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"mixcloud",
+      "name":"Mixcloud Pro",
+      "category":"Music",
+      "brandColor":"5000FF",
+      "defaultPrice":15.0,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"neteasecloudmusic",
+      "name":"NetEase Cloud Music",
+      "category":"Music",
+      "brandColor":"D43C33",
+      "defaultPrice":8.99,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"discord",
+      "name":"Discord",
+      "category":"Communication",
+      "brandColor":"5865F2",
+      "defaultPrice":9.99,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"telegram",
+      "name":"Telegram",
+      "category":"Communication",
+      "brandColor":"26A5E4",
+      "defaultPrice":4.99,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"zoom",
+      "name":"Zoom",
+      "category":"Communication",
+      "brandColor":"0B5CFF",
+      "defaultPrice":14.99,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"notion",
+      "name":"Notion",
+      "category":"Productivity",
+      "brandColor":"000000",
+      "defaultPrice":10.0,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"evernote",
+      "name":"Evernote Personal",
+      "category":"Productivity",
+      "brandColor":"00A82D",
+      "defaultPrice":7.99,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"todoist",
+      "name":"Todoist Pro",
+      "category":"Productivity",
+      "brandColor":"E44332",
+      "defaultPrice":4.0,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"dropbox",
+      "name":"Dropbox",
+      "category":"Productivity",
+      "brandColor":"0061FF",
+      "defaultPrice":11.99,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"google",
+      "name":"Google One",
+      "category":"Cloud",
+      "brandColor":"4285F4",
+      "defaultPrice":1.99,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"box",
+      "name":"Box Business Starter",
+      "category":"Cloud",
+      "brandColor":"0061D5",
+      "defaultPrice":7.0,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"nextcloud",
+      "name":"Nextcloud Enterprise",
+      "category":"Cloud",
+      "brandColor":"0082C9",
+      "defaultPrice":8.0,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"onlyoffice",
+      "name":"ONLYOFFICE Workspace",
+      "category":"Productivity",
+      "brandColor":"444444",
+      "defaultPrice":8.0,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"github",
+      "name":"GitHub Pro",
+      "category":"Developer Tools",
+      "brandColor":"181717",
+      "defaultPrice":4.0,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"githubcopilot",
+      "name":"GitHub Copilot",
+      "category":"Developer Tools",
+      "brandColor":"000000",
+      "defaultPrice":10.0,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"jetbrains",
+      "name":"JetBrains All Products",
+      "category":"Developer Tools",
+      "brandColor":"000000",
+      "defaultPrice":16.9,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"figma",
+      "name":"Figma Professional",
+      "category":"Design",
+      "brandColor":"F24E1E",
+      "defaultPrice":12.0,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"atlassian",
+      "name":"Atlassian Cloud",
+      "category":"Developer Tools",
+      "brandColor":"0052CC",
+      "defaultPrice":7.5,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"jira",
+      "name":"Jira Software Standard",
+      "category":"Developer Tools",
+      "brandColor":"0052CC",
+      "defaultPrice":8.0,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"linear",
+      "name":"Linear",
+      "category":"Developer Tools",
+      "brandColor":"5E6AD2",
+      "defaultPrice":8.0,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"cloudflare",
+      "name":"Cloudflare Pro",
+      "category":"Cloud",
+      "brandColor":"F38020",
+      "defaultPrice":20.0,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"cloudinary",
+      "name":"Cloudinary Plus",
+      "category":"Cloud",
+      "brandColor":"3448C5",
+      "defaultPrice":23.0,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"googlecloud",
+      "name":"Google Cloud",
+      "category":"Cloud",
+      "brandColor":"4285F4",
+      "defaultPrice":20.0,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"1password",
+      "name":"1Password",
+      "category":"Security",
+      "brandColor":"3B66BC",
+      "defaultPrice":2.99,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"bitwarden",
+      "name":"Bitwarden Premium",
+      "category":"Security",
+      "brandColor":"175DDC",
+      "defaultPrice":1.0,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"lastpass",
+      "name":"LastPass Premium",
+      "category":"Security",
+      "brandColor":"D32D27",
+      "defaultPrice":3.0,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"nordvpn",
+      "name":"NordVPN",
+      "category":"Security",
+      "brandColor":"4687FF",
+      "defaultPrice":12.99,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"expressvpn",
+      "name":"ExpressVPN",
+      "category":"Security",
+      "brandColor":"DA3940",
+      "defaultPrice":12.95,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"openvpn",
+      "name":"OpenVPN Access Server",
+      "category":"Security",
+      "brandColor":"EA7E20",
+      "defaultPrice":15.0,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"duolingo",
+      "name":"Duolingo Super",
+      "category":"Education",
+      "brandColor":"58CC02",
+      "defaultPrice":12.99,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"coursera",
+      "name":"Coursera Plus",
+      "category":"Education",
+      "brandColor":"0056D2",
+      "defaultPrice":59.0,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"skillshare",
+      "name":"Skillshare",
+      "category":"Education",
+      "brandColor":"00FF84",
+      "defaultPrice":19.0,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"codecademy",
+      "name":"Codecademy Pro",
+      "category":"Education",
+      "brandColor":"1F4056",
+      "defaultPrice":19.99,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"hackthebox",
+      "name":"Hack The Box",
+      "category":"Education",
+      "brandColor":"9FEF00",
+      "defaultPrice":29.0,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"playstation",
+      "name":"PlayStation Plus",
+      "category":"Gaming",
+      "brandColor":"0070D1",
+      "defaultPrice":9.99,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"ea",
+      "name":"EA Play",
+      "category":"Gaming",
+      "brandColor":"000000",
+      "defaultPrice":4.99,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"ubisoft",
+      "name":"Ubisoft+",
+      "category":"Gaming",
+      "brandColor":"000000",
+      "defaultPrice":14.99,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"quickbooks",
+      "name":"QuickBooks Online Simple Start",
+      "category":"Finance",
+      "brandColor":"2CA01C",
+      "defaultPrice":30.0,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"xero",
+      "name":"Xero Starter",
+      "category":"Finance",
+      "brandColor":"13B5EA",
+      "defaultPrice":25.0,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"chatgpt",
+      "name":"ChatGPT",
+      "category":"Developer Tools",
+      "brandColor":"00A67E",
+      "defaultPrice":25.0,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"claude",
+      "name":"Claude",
+      "category":"Developer Tools",
+      "brandColor":"DA7756",
+      "defaultPrice":25.0,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"disney",
+      "name":"Disney",
+      "category":"Entertainment",
+      "brandColor":"113CCF",
+      "defaultPrice":13.99,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"primevideo",
+      "name":"Prime Video",
+      "category":"Entertainment",
+      "brandColor":"00A8E1",
+      "defaultPrice":8.99,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"appletv",
+      "name":"Apple TV",
+      "category":"Entertainment",
+      "brandColor":"000000",
+      "defaultPrice":9.99,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"hulu",
+      "name":"Hulu",
+      "category":"Entertainment",
+      "brandColor":"1CE783",
+      "defaultPrice":7.99,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"mubi",
+      "name":"Mubi",
+      "category":"Entertainment",
+      "brandColor":"000000",
+      "defaultPrice":10.99,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"amazon",
+      "name":"Amazon",
+      "category":"Shopping",
+      "brandColor":"FF9900",
+      "defaultPrice":14.99,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"icloud",
+      "name":"iCloud",
+      "category":"Cloud",
+      "brandColor":"0A84FF",
+      "defaultPrice":0.99,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"microsoft",
+      "name":"Microsoft",
+      "category":"Productivity",
+      "brandColor":"F25022",
+      "defaultPrice":6.99,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"openai",
+      "name":"OpenAI",
+      "category":"Developer Tools",
+      "brandColor":"10A37F",
+      "defaultPrice":20.0,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"gemini",
+      "name":"Gemini",
+      "category":"Developer Tools",
+      "brandColor":"4285F4",
+      "defaultPrice":20.0,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"perplexity",
+      "name":"Perplexity",
+      "category":"Developer Tools",
+      "brandColor":"20B8CD",
+      "defaultPrice":20.0,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"midjourney",
+      "name":"Midjourney",
+      "category":"AI",
+      "brandColor":"000000",
+      "defaultPrice":10.0,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"runway",
+      "name":"Runway",
+      "category":"AI",
+      "brandColor":"000000",
+      "defaultPrice":12.0,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"xbox",
+      "name":"Xbox",
+      "category":"Gaming",
+      "brandColor":"107C10",
+      "defaultPrice":9.99,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"nintendo",
+      "name":"Nintendo",
+      "category":"Gaming",
+      "brandColor":"E60012",
+      "defaultPrice":3.99,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"canva",
+      "name":"Canva",
+      "category":"Design",
+      "brandColor":"00C4CC",
+      "defaultPrice":12.99,
+      "defaultFrequency":"monthly"
+   },
+   {
+      "slug":"adobe",
+      "name":"Adobe",
+      "category":"Design",
+      "brandColor":"FF0000",
+      "defaultPrice":20.99,
+      "defaultFrequency":"monthly"
+   }
 ]
